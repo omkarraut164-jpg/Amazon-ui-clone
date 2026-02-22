@@ -34,7 +34,7 @@
 .logo{
     height: 50px;
     width: 100%;
-    background-image: url("/img/nav-logo.png");
+    background-image: url("img/nav-logo.png");
     background-size: cover;
 }
 
@@ -100,7 +100,7 @@
     height: 16px;
     width: 24px;
     margin-right: 6px;
-    background-image: url("/img/indo-flag.png");
+    background-image: url("img/indo-flag.png");
     background-size: cover;
     background-position: center;
 }
@@ -175,14 +175,14 @@
 .amazon-pay{
     height: 39px;
     width: 39px;
-    background-image: url("/img/amazon-pay.png");
+    background-image: url("img/amazon-pay.png");
     background-size: cover;
 }
 
 /** hero-section **/
 .hero-section{
     height: 350px;
-    background-image: url("/img/hero-sectionimg.jpg");
+    background-image: url("img/hero-sectionimg.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -211,7 +211,7 @@
 /** Shop-Section **/
 .shop-section{
     min-height: 700px;
-    background-image: url("/img/black-white\ -\ Copy.png");
+    background-image: url("img/black-white\ -\ Copy.png");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
