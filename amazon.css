@@ -365,7 +365,81 @@
 }
 
 /** Footer **/
-.footer{
-    height: 300px;
-    background-color: #232F3E;
+/* Back to Top bar */
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.foot-panel1:hover {
+    background-color: #485769;
+}
+
+/* Middle Links Section */
+.foot-panel2 {
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    border-bottom: 0.1px solid #485769;
+}
+
+.foot-panel2 ul p {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.foot-panel2 ul a {
+    display: block;
+    font-size: 0.85rem;
+    color: #DDDDDD;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.foot-panel2 ul a:hover {
+    text-decoration: underline;
+}
+
+/* Bottom Logo & Dropdowns */
+.foot-panel3 {
+    background-color: #232f3e;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.foot-panel3 .logo {
+    background-image: url("img/nav-logo.png");
+    background-size: cover;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+.footer-options {
+    display: flex;
+    gap: 10px;
+}
+
+.lang-box, .country-box {
+    border: 1px solid #848688;
+    color: #CCCCCC;
+    padding: 6px 10px;
+    border-radius: 3px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
 }
